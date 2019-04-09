@@ -1,0 +1,16 @@
+*.class
+*.jar
+hs_err_pid*
+*.iml
+.idea/*
+/target/
+.classpath
+.project
+.settings/*
+
+*~
+.fuse_hidden*
+.directory
+.Trash-*`
+/dependency-reduced-pom.xml
+/logs

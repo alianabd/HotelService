@@ -1,0 +1,18 @@
+logging:
+  level: INFO
+  loggers:
+    com.maf: DEBUG
+
+server:
+ applicationContextPath: /
+ adminContextPath: /
+ applicationConnectors:
+  - type: http
+    port: 8080
+ adminConnectors:
+  - type: http
+    port: 8081
+
+hotels_providers:
+ - https://www.majidalfuttaim.com/en #this one stand for best hotels
+ - https://www.majidalfuttaim.com/en #this one stand for crazy hotels
